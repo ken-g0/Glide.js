@@ -440,10 +440,10 @@
 		/**
 		 * Arrows
 		 * If arrows exists
-		 * Attach click event
+		 * Attach "only" click event
 		 */
 		if (this.arrows.wrapper) {
-			$(this.arrows.wrapper).children().on('click touchstart',
+			$(this.arrows.wrapper).children().on('click',
 				$.proxy(this.events.arrows, this)
 			);
 		}
@@ -451,10 +451,10 @@
 		/**
 		 * Navigation
 		 * If navigation exists
-		 * Attach click event
+		 * Attach "only" click event
 		 */
 		if (this.navigation.wrapper) {
-			$(this.navigation.wrapper).children().on('click touchstart',
+			$(this.navigation.wrapper).children().on('click',
 				$.proxy(this.events.navigation, this)
 			);
 		}
