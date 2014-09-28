@@ -114,6 +114,9 @@ glide.jump(3, console.log('Wooo!'));
 
 
 ##Changelog
+`1.0.7` / `28.09.2014`
+- bug fix for Android 4.1.x. cause multi binding events.
+
 `1.0.65` / `12.07.2014`
 - Sass styles redefined. New naming convection.
 - Added destroy() method.
